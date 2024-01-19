@@ -11,6 +11,9 @@ on:
 
 jobs:
   build:
+    defaults:
+      run:
+        working-directory: ./books
 
     runs-on: ubuntu-latest
 
