@@ -13,7 +13,7 @@ jobs:
   build:
     defaults:
       run:
-        working-directory: ./books
+        working-directory: ./animals
 
     runs-on: ubuntu-latest
 
